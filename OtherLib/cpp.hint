@@ -1,0 +1,2 @@
+#define OTHERLIB_API __declspec(dllexport)
+#define OTHERLIB_API __declspec(dllimport)
