@@ -3,7 +3,7 @@
 
 #include "framework.h"
 #include "DemandLoadedLib.h"
-#include "..\OtherLib\OtherLib.h"
+#include "..\DynamicLibrary2\OtherLib.h"
 #include <windows.h>
 #include <iostream>
 

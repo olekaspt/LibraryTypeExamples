@@ -13,11 +13,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticLib1", "StaticLib1\St
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallBackExample1", "CallBackExample1\CallBackExample1.vcxproj", "{30A851E6-735F-4EEC-936D-5CC05A899B1D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallDemanLoadLibrary", "StaticInitalizer\StaticInitalizer.vcxproj", "{207EAB4B-7772-4E4C-8864-CB8BA905B5F0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallDemandLoadLibrary", "CallDemandLoadLibrary\CallDemandLoadLibrary.vcxproj", "{207EAB4B-7772-4E4C-8864-CB8BA905B5F0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemandLoadedLib", "DemandLoadedLib\DemandLoadedLib.vcxproj", "{CA92D618-00D1-4BD1-B3AA-E1EFA7469B84}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OtherLib", "OtherLib\OtherLib.vcxproj", "{D8526088-0197-4E83-AE52-4A646FA2423D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicLibrary2", "DynamicLibrary2\DynamicLibrary2.vcxproj", "{D8526088-0197-4E83-AE52-4A646FA2423D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

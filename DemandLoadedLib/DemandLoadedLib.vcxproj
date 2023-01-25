@@ -166,7 +166,7 @@
     <ClCompile Include="dllmain.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OtherLib\OtherLib.vcxproj">
+    <ProjectReference Include="..\DynamicLibrary2\DynamicLibrary2.vcxproj">
       <Project>{d8526088-0197-4e83-ae52-4a646fa2423d}</Project>
     </ProjectReference>
   </ItemGroup>
