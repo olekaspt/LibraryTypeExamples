@@ -1,16 +1,16 @@
-// StaticInitalizer.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// CallDemanLoadLibrary.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-#include "..\OtherLib\OtherLib.h"
+
 #include <windows.h> 
 #include <stdio.h> 
 
 typedef int(__cdecl* MYPROC)();
 
 int main()
-{
-    someCall();
+{    
+
     std::cout << "Hello World!\n";
 
 

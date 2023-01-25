@@ -3,6 +3,7 @@
 
 #include "framework.h"
 #include "DemandLoadedLib.h"
+#include "..\OtherLib\OtherLib.h"
 #include <windows.h>
 #include <iostream>
 
@@ -31,6 +32,9 @@ extern "C" {          // we need to export the C interface
     __declspec(dllexport) int __cdecl myPuts()
     {
         std::cout << "Hello World! from demand loaded lib\n";
+
+
+        someCall();
 
         return 1;
     }
