@@ -16,6 +16,7 @@ int main()
 
     HINSTANCE hinstLib;
     MYPROC ProcAdd;
+    MYPROC ProcAdd1;
     BOOL fFreeResult, fRunTimeLinkSuccess = FALSE;
 
     // Get a handle to the DLL module.
@@ -27,6 +28,8 @@ int main()
     if (hinstLib != NULL)
     {
         ProcAdd = (MYPROC)GetProcAddress(hinstLib, "myPuts");
+
+        ProcAdd1 = (MYPROC)GetProcAddress(hinstLib, "myPuts");
 
         // If the function address is valid, call the function.
 
